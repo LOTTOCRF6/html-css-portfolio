@@ -1,0 +1,16 @@
+.landPage {
+  height: 100vh;
+  display: flex;
+  color: rgb(11, 230, 175);
+  justify-content: space-between;
+  margin-top: 40px;
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  padding-top: 250px;
+  display: ruby-base;
+  align-items: baseline;
+}
+

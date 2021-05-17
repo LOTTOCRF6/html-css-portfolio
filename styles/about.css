@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.About-section {
+  height: 500px;
+}
+.column {
+  float: left;
+  color: aqua;
+  background: chartreuse;
+  width: 33.33%;
+  padding: 10px;
+  height: 497px;
+}
+/* Start of My Column1 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.skills-container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 70%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 60%;
+  background-color: #d4f321;
+}
+.py {
+  width: 50%;
+  background-color: #c46760;
+}
+.c {
+  width: 50%;
+  background-color: #4b0707;
+}
+.social-network {
+  color: #04aa6d;
+}

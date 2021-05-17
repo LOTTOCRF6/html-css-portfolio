@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.section {
+  height: 100vh;
+  background: url(../images/227-1024x683-CRF2.jpg);
+}
+.heading {
+    display: flex;
+    margin-left: 500px;
+}
+.owl-carousel {
+  display: flex;
+  align-items: center;
+}
+.content-testimonial {
+  background: rgba(189, 237, 243, 0.952);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 55vh;
+  border-radius: 20px;
+}
+.image {
+  border-radius: 20%;
+  border-width: 50px;
+  padding-right: 650;
+  
+}
+.title {
+    color: rgb(20, 175, 180);
+    font-size: xx-large;
+}
+.text {
+  
+}

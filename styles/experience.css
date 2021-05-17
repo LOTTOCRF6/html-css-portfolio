@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.experience-head {
+  display: flex;
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: rgb(34, 243, 26);
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+  align-self: center;
+  margin-left: 5px;
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background: url(../images/310-4928x3264-CRF4.jpg);
+  color: darksalmon;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+  height: 150%;
+}
+.line {
+  width: 10px;
+  height: 110%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background: rgba(11, 136, 38, 0.4);
+  box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+  backdrop-filter: orange(4px);
+  -webkit-backdrop-filter: orange(4px);
+  border-radius: 10px;
+}
+.item-1 {
+  grid-column: 3;
+  grid-row: 1;
+  margin: 20xp;
+  justify-content: space-between;
+}
+.item-2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.item-3 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.item-4 {
+  grid-column: 1;
+  grid-row: 4;
+  margin-bottom: 35px;
+}
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(28, 152, 190);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+  margin: 10%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: orange(4px);
+  -webkit-backdrop-filter: orange(4px);
+  border-radius: 10px;
+}

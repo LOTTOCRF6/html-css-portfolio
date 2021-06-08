@@ -1,9 +1,13 @@
 .contact-details-heading {
   margin-bottom: 35px;
-  font-size: 30px;
-  font-weight: normal;
+  font-family: inherit;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
   margin-left: 436px;
-  color: #099c95;
+  color: transparent;
+  -webkit-text-stroke: 1px #333
+  
 }
 * {
   padding: 0;
@@ -30,7 +34,7 @@
 }
 .contact-input {
   border: none;
-  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(16, 196, 219, 0.2);
   margin: 0 0 60px 0;
   width: 400px;
   height: 40px;
@@ -88,7 +92,6 @@ textarea {
   cursor: pointer;
   color: #099C95;
   font-size: 16px;
-  padding: 10px 48px;
   line-height: 1.8em;
   transition: all 0.3s;
   margin: 20;
@@ -121,9 +124,10 @@ textarea {
   margin-bottom: 20px;
 }
 .contact-Info {
+  color: #195f5f;
+  padding-left: 30px;
   
- 
- 
+
 }
 .fab {
   padding: 10px;
@@ -134,9 +138,10 @@ textarea {
   border-radius: 50%;
 }
 .contact-section {
-  background: url(../images/122-4147x2756-CRF1.jpg);
+  background: #041414;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 98vh;
 }
 .contact-form-p {
   display: flex;

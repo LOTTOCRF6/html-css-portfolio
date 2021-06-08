@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .About-section {
-  height: 500px;
+  height: 100vh;
 }
 .column {
   float: left;
@@ -48,4 +48,5 @@
 }
 .social-network {
   color: #04aa6d;
+  margin-top: -66px;
 }

@@ -3,11 +3,18 @@
 }
 .section {
   height: 100vh;
-  background: url(../images/227-1024x683-CRF2.jpg);
+  background: #181a1a;
+  
 }
 .heading {
     display: flex;
     margin-left: 500px;
+    font-family: inherit;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: transparent;
+    -webkit-text-stroke: 1px #333
 }
 .owl-carousel {
   display: flex;

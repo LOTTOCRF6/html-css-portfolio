@@ -46,9 +46,10 @@
 }
 .Portfolio-section {
   height: 110vh;
-  background: url(../images/596-2312x1536-CRF7.jpg);
+  background: #0f0f0f !important;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 120px 0;
 }
 .descreption {
   padding-top: 50px;
@@ -88,4 +89,14 @@
   display: flex;
   justify-content: space-evenly;
   justify-content: space-around;
+}
+.section-head {
+  display: flex;
+  margin-left: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke: 1px #333
 }

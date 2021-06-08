@@ -8,13 +8,31 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: rgb(15, 11, 11);
-  position: relative;
+  background: #222;
+  padding: .5rem 1rem;
+  position: fixed;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  
 }
 
 .topnav #myLinks {
-  display: none;
+  display: flex;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 10px;
 }
 
 .topnav a {
@@ -22,7 +40,7 @@ body {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .topnav a.icon {
@@ -34,7 +52,15 @@ body {
   color: rgb(28, 221, 195);
 }
 
-.active {
-  background-color: #04aa6d;
-  color: white;
+.logo {
+  background-color: #222;
+  height: 10vh;
+  margin: 72;
+
 }
+
+.nav-container {
+  background: #222;
+ 
+}
+
